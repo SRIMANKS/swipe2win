@@ -176,15 +176,15 @@ class Board {
 const board = new Board(rows, cols, spacing);
 
 let box1 = new Box(1, 2, "#00A3FF", 0, 0);
-let box2 = new Box(2, 2, "#FF5050", 1, 0);
+let box2 = new Box(2, 1, "#23FF89", 1, 0);
 let box3 = new Box(1, 2, "#00A3FF", 3, 0);
-let box4 = new Box(1, 2, "#00A3FF", 0, 2);
-let box5 = new Box(1, 2, "#00A3FF", 3, 2);
-let box6 = new Box(2, 1, "#FFE248", 1, 2);
-let box7 = new Box(1, 1, "#23FF89", 0, 4);
-let box8 = new Box(1, 1, "#23FF89", 3, 4);
-let box9 = new Box(1, 1, "#23FF89", 1, 3);
-let box10 = new Box(1, 1, "#23FF89", 2, 3);
+let box4 = new Box(1, 1, "#FFE248", 1, 1);
+let box5 = new Box(1, 1, "#FFE248", 2, 1);
+let box6 = new Box(2, 2, "#FF5050", 0, 2);
+let box7 = new Box(1, 2, "#00A3FF", 3, 2);  
+let box8 = new Box(1, 1, "#FFE248", 0, 4);
+let box9 = new Box(1, 1, "#FFE248", 1, 4);
+let box10 = new Box(2, 1, "#23FF89", 2, 4);
 
 board.addBox(box1);
 board.addBox(box2);
